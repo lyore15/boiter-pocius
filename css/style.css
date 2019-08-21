@@ -1,0 +1,70 @@
+.container {
+    margin: auto;
+}
+
+#main-header {
+    border-bottom: 1px solid navy;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: silver;
+}
+
+#navbar a:hover {
+    color: navy;
+    border-bottom: 2px solid navy;
+    padding-bottom: 2px;
+}
+
+h1 {
+    color: silver;
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+#showcase {
+    background: url(../images/benMel.jpg) no-repeat center;
+
+    border-bottom: 1px solid navy;
+    margin-bottom: 30px;
+}
+
+#showcase .row {
+    height: 600px;
+}
+
+
+
+#showcase h1, h2 {
+    font-size: 25px;
+    color: darkslateblue;
+}
+
+#showcase p {
+    font-size: 15px;
+    color: darkslateblue;
+}
+
+#showcase .showcase-content {
+    background: white;
+    color: #fff;
+    opacity: 0.5;
+    padding: 0px;
+    margin-top: 300px;
+}
+
+#bridalparty {
+    background: url(../images/wedding.jpg);
+    padding: 20px;
+}
+
