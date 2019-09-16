@@ -25,16 +25,16 @@
 }
 
 h1 {
+    text-decoration: none;
     color: silver;
 }
 
 h2 {
-    color: darkslateblue;
+    color: navy;
 }
 
 #showcase {
     background: url(../images/benMel.jpg) no-repeat center;
-
     border-bottom: 1px solid navy;
     margin-bottom: 30px;
 }
@@ -43,16 +43,14 @@ h2 {
     height: 600px;
 }
 
-
-
 #showcase h1, h2 {
     font-size: 25px;
-    color: darkslateblue;
+    color: navy;
 }
 
 #showcase p {
-    font-size: 15px;
-    color: darkslateblue;
+    font-size: 18px;
+    color: navy;
 }
 
 #showcase .showcase-content {
@@ -68,3 +66,13 @@ h2 {
     padding: 20px;
 }
 
+#accommodations {
+    background: url(../images/candlelight.jpg);
+    background-size: 1150px;
+    margin-bottom: 30px;
+    height: 600px;
+}
+
+#main-footer {
+    padding-bottom: 10px;
+}
