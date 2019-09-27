@@ -2,26 +2,20 @@
     margin: auto;
 }
 
-#main-header {
-    border-bottom: 1px solid navy;
-}
-
-#navbar li {
-    display: inline;
-    padding-right: 20px;
-    list-style: none;
-    font-size: 18px;
+#navbar {
+    background-color: #0d47a1;
+    font-family: 'Parisienne', cursive;
 }
 
 #navbar a {
     text-decoration: none;
-    color: silver;
+    color: white;
 }
 
 #navbar a:hover {
-    color: navy;
-    border-bottom: 2px solid navy;
-    padding-bottom: 2px;
+    color:#cfd8dc;
+    /* border-bottom: 2px solid white; */
+    padding-top: 2px;
 }
 
 h1 {
@@ -33,13 +27,35 @@ h2 {
     color: navy;
 }
 
-#showcase {
-    background: url(../images/benMel.jpg) no-repeat center;
-    border-bottom: 1px solid navy;
-    margin-bottom: 30px;
+#bridalparty h1, h2 {
+    font-family: 'Parisienne', cursive;
+    color: maroon;
+    font-size: 50px;
+    text-align: center;
 }
 
-#showcase .row {
+#bridalparty p {
+    font-size: 25px;
+    font-family: 'Crimson Text', serif;
+}
+
+#bridalparty h3 {
+    font-family: 'Parisienne', cursive;
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+}
+
+#bridalparty h4 {
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+}
+
+#showcase {
+    background: url(../images/benMel.jpg) no-repeat center;
+}
+
+#showcase .container {
     height: 600px;
 }
 
@@ -53,12 +69,12 @@ h2 {
     color: navy;
 }
 
-#showcase .showcase-content {
+#words {
+    text-align: center;
     background: white;
     color: #fff;
     opacity: 0.5;
-    padding: 0px;
-    margin-top: 300px;
+    margin-top: 375px;
 }
 
 #bridalparty {
@@ -74,5 +90,21 @@ h2 {
 }
 
 #main-footer {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.page-footer {
+    background-color: #0d47a1;
+    text-align: center;
+}
+
+#orlando h5 {
+    text-align: center;
+    color: #0d47a1;
+}
+
+#orlando h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #0d47a1;
 }
