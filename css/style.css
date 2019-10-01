@@ -125,6 +125,16 @@ h2 {
     color: #0d47a1;
 }
 
+#wedding {
+    background-image: url(../images/silver.jpg);
+    background-size: cover;
+}
+
+#shiny {
+    background-image: url(../images/silver.jpg);
+    background-size: cover;
+}
+
 #ourwedding h3 {
     font-family: 'Parisienne', cursive;
     color: navy;
@@ -165,4 +175,20 @@ h2 {
 
 #hotels col {
     float: left;
+}
+
+#hotels h3 {
+    font-family: 'Parisienne', cursive;
+    color: navy;
+    text-align: center;
+}
+
+#modation {
+    background-image: url(../images/silver.jpg);
+    background-size: cover;
+}
+
+#bestcity {
+    background-image: url(../images/silver.jpg);
+    background-size: cover;
 }
