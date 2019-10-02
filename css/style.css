@@ -75,7 +75,6 @@
 }
 
 #accommodations {
-    background: url(../images/candlelight.jpg);
     background-size: 1150px;
     margin-bottom: 30px;
     height: 600px;
@@ -107,11 +106,13 @@
 #wedding {
     background-image: url(../images/silver.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #shiny {
     background-image: url(../images/silver.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #ourwedding h3 {
@@ -158,7 +159,7 @@
 
 #hotels p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     font-style: italic;
 }
@@ -185,11 +186,13 @@
 #modation {
     background-image: url(../images/silver.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #bestcity {
     background-image: url(../images/silver.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 

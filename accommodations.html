@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Parisienne&display=swap" rel="stylesheet">
@@ -12,15 +13,16 @@
     <title>Ben&Melissa</title>
 </head>
 
-<body id="modation"
->
-    
+<body id="modation">
+
     <!-- Header -->
     <header>
         <div class="navbar-fixed">
             <nav id="navbar">
                 <div class="nav-wrapper">
                     <a href="index.html" class="brand-logo">Ben&Melissa</a>
+                    <a href="index.html" class="sidenav-trigger" data-target="mobile">
+                        <i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="ourwedding.html">Our Wedding</a></li>
                         <li><a href="accommodations.html">Accommodations</a></li>
@@ -29,10 +31,14 @@
                 </div>
             </nav>
         </div>
+        <ul class="sidenav" id="mobile">
+            <li><a href="index.html">Ben&Melissa</a></li>
+            <li><a href="ourwedding.html">Our Wedding</a></li>
+            <li><a href="accommodations.html">Accommodations</a></li>
+            <li><a href="orlando.html">Things to do in Orlando</a></li>
+        </ul>
     </header>
 
-    <!-- SHOWCASE -->
-    
     <section id="hotels">
         <h3>Accommodations</h3>
         <div class="row">
@@ -48,39 +54,41 @@
                 </div>
             </div>
             <div class="col s3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./images/embassy-suites-orlando-downtown_750xx900-506-0-30.jpg" width="400" height="200">
-                            <!-- <span class="card-title">Embassy Suites</span> -->
-                        </div>
-                        <div class="card-content">
-                            <p><a href="https://www.hilton.com/en/embassy/" target="_blank">Embassy Suites</a></p>
-                        </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/embassy-suites-orlando-downtown_750xx900-506-0-30.jpg" width="400"
+                            height="200">
+                        <!-- <span class="card-title">Embassy Suites</span> -->
                     </div>
-                </div>
-                <div class="col s3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./images/eo-inn.jpg" width="400" height="200">
-                                <!-- <span class="card-title">Eo Inn</span> -->
-                            </div>
-                            <div class="card-content">
-                                <p><a href="https://eoinn.com/" target="_blank">Eo Inn</a></p>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./images/grand-bohemian-hotel-orlando.jpg" width="400" height="200">
-                            <!-- <span class="card-title">Grand Bohemian Hotel</span> -->
-                        </div>
-                        <div class="card-content">
-                            <p><a href="https://www.kesslercollection.com/bohemian-orlando/" target="_blank">Grand Bohemian Hotel</a></p>
-                        </div>
+                    <div class="card-content">
+                        <p><a href="https://www.hilton.com/en/embassy/" target="_blank">Embassy Suites</a></p>
                     </div>
                 </div>
             </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/eo-inn.jpg" width="400" height="200">
+                        <!-- <span class="card-title">Eo Inn</span> -->
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://eoinn.com/" target="_blank">Eo Inn</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/grand-bohemian-hotel-orlando.jpg" width="400" height="200">
+                        <!-- <span class="card-title">Grand Bohemian Hotel</span> -->
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://www.kesslercollection.com/bohemian-orlando/" target="_blank">Grand Bohemian
+                                Hotel</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <p>**Disney and Universal Studios also offer numerous hotels as well as multiple Airbnb in the area.</p>
     </section>
@@ -91,6 +99,7 @@
         </div>
     </footer>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 
