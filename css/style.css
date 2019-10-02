@@ -195,4 +195,12 @@
     background-repeat: repeat-y;
 }
 
+html, body{
+    margin: 0;
+ }
 
+ @media screen and (max-width: 600px) {
+    .col s6 {
+      width: 50%
+    }
+}
