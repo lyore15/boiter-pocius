@@ -8,7 +8,6 @@
 }
 
 #navbar a {
-    text-decoration: none;
     color: white;
 }
 
@@ -18,17 +17,25 @@
     padding-top: 2px;
 }
 
+#words {
+    text-align: center;
+    background: white;
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 375px;
+}
+
+#words h1, p {
+    color: #0d47a1;
+}
+
+#words a {
+    border-bottom: 2px solid #0d47a1;
+    color: #0d47a1;
+}
+
 #words a:hover {
     color: #380808;
-}
-
-h1 {
-    text-decoration: none;
-    color: silver;
-}
-
-h2 {
-    color: navy;
 }
 
 #ourstory h1 {
@@ -40,31 +47,8 @@ h2 {
 #ourstory p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 18px;   
-}
-
-#bridalparty h1, h2 {
-    font-family: 'Parisienne', cursive;
-    color: maroon;
-    font-size: 50px;
-    text-align: center;
-}
-
-#bridalparty p {
-    font-size: 25px;
-    font-family: 'Crimson Text', serif;
-}
-
-#bridalparty h3 {
-    font-family: 'Parisienne', cursive;
-    color: navy;
-    font-size: 50px;
-    text-align: center;
-}
-
-#bridalparty h4 {
-    font-size: 20px;
-    font-family: 'Crimson Text', serif;
+    font-size: 18px;  
+    color: black; 
 }
 
 #showcase {
@@ -85,14 +69,6 @@ h2 {
     color: navy;
 }
 
-#words {
-    text-align: center;
-    background: white;
-    color: #fff;
-    opacity: 0.5;
-    margin-top: 375px;
-}
-
 #bridalparty {
     background: url(../images/wedding.jpg);
     padding: 20px;
@@ -105,11 +81,13 @@ h2 {
     height: 600px;
 }
 
-#main-footer {
-    padding-bottom: 20px;
-}
 
 .page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     background-color: #0d47a1;
     text-align: center;
 }
@@ -120,6 +98,7 @@ h2 {
 }
 
 #orlando h2 {
+    font-family: 'Parisienne', cursive;
     text-align: center;
     font-size: 50px;
     color: #0d47a1;
@@ -146,11 +125,15 @@ h2 {
     text-align: center;
 }
 
-#ourwedding h6{
+#ourwedding h6 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 25px;
     font-style: italic;
+}
+
+#ourwedding a {
+    border-bottom: 2px solid #9fc0db
 }
 
 #ourwedding a:hover {
@@ -173,6 +156,22 @@ h2 {
     font-size: 20px;
 }
 
+#hotels p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+}
+
+#hotels a {
+    border-bottom: 2px solid #9fc0db;
+    color: #9fc0db;
+}
+
+#hotels a:hover {
+    color: #9fc0db;
+}
+
 #hotels col {
     float: left;
 }
@@ -192,3 +191,5 @@ h2 {
     background-image: url(../images/silver.jpg);
     background-size: cover;
 }
+
+
