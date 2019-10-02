@@ -186,13 +186,13 @@
 #modation {
     background-image: url(../images/silver.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 #bestcity {
     background-image: url(../images/silver.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 
