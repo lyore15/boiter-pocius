@@ -159,7 +159,7 @@
 
 #hotels p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     font-style: italic;
 }
@@ -200,7 +200,11 @@ html, body{
  }
 
  @media screen and (max-width: 600px) {
-    .col s6 {
+    #hotels .card {
       width: 50%
     }
+}
+
+#orlando .carousel {
+    margin-bottom:0;
 }
