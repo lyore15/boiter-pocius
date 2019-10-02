@@ -192,10 +192,9 @@
 #bestcity {
     background-image: url(../images/silver.jpg);
     background-size: cover;
-    background-repeat: repeat-y;
 }
 
-html, body{
+#orlando {
     margin: 0;
  }
 
