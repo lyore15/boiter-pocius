@@ -192,18 +192,17 @@
 #bestcity {
     background-image: url(../images/silver.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #orlando {
     padding: 0;
  }
 
- @media screen and (max-width: 600px) {
-    #hotels .card {
-      columns: 1;
+ /* @media screen and (max-width: 600px) {
+    #hotels .row {
+      display: inline;
     }
-}
+} */
 
 #orlando .carousel {
     margin-top: 0;
